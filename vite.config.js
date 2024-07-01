@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [
     react(), 
   ],
-  assetsInclude: ["**/*.md"],
-  base: 'https://akhilbisht798.github.io/blogs/'
+  assetsInclude: ["**/*.md", "**/*.JPG"],
+  base: './'
 })
