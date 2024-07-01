@@ -1,4 +1,3 @@
-import MarkdownRender from './MarkdownRender';
 import { useNavigate } from 'react-router-dom';
 
 export function Blog({ title, filepath }) {
@@ -9,8 +8,11 @@ export function Blog({ title, filepath }) {
     }
 
     return (
-        <div className=" text-xl " onClick={handleClick}>
+        <li
+            onClick={handleClick}
+            tabIndex="0"
+            className="text-blue-600 underline hover:text-blue-800 active:text-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer transition-colors duration-200">
             {title}
-        </div>
+        </li>
     )
 }

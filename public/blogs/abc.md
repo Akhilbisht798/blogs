@@ -1,2 +1,2 @@
-### Welcome
-- today what i am going to do is.
+###  First Blog.
+- This is just a trial blog.
