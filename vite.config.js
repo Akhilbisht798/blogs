@@ -7,5 +7,5 @@ export default defineConfig({
     react(), 
   ],
   assetsInclude: ["**/*.md"],
-  base: '/vite-deploy-demo/'
+  base: 'https://akhilbisht798.github.io/blogs/'
 })
