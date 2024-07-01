@@ -7,5 +7,5 @@ export default defineConfig({
     react(), 
   ],
   assetsInclude: ["**/*.md", "**/*.JPG"],
-  base: './'
+  base: "https://akhilbisht798.github.io/blogs/"
 })
